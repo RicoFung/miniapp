@@ -1,0 +1,8 @@
+<view class="list" wx:for="{{array}}">
+  <view class="list-item ripple">
+    <image style="width: 80px; height: 80px; background-color: #eeeeee;" mode="{{item.mode}}" src="/images/control2.png"></image>
+    <view class="list-item-title">{{item.title}}</view>
+    <view class="list-item-status">{{item.status}}</view>
+    <view class="list-item-date">{{item.date}}</view>
+  </view>
+</view>

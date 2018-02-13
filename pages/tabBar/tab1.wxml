@@ -1,0 +1,7 @@
+<!--pages/tabBar/tab1.wxml-->
+<text>{{text}}</text>
+<view class="btn-area" wx:for="{{array}}" wx:key="unique">
+  <text data-val="{{index}}" bindtap="tapIndex">{{index}}</text>-
+  <text data-val="{{item}}" bindtap="tapItem">{{item}}</text>
+  <navigator url="/pages/detail/detail?title={{index}}-{{item}}" hover-class="navigator-hover">跳转到新页面</navigator>
+</view>

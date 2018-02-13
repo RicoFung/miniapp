@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/tabBar/tab4",
+    "pages/tabBar/tab1",
+    "pages/detail/detail",
+    "pages/tabBar/tab2",
+    "pages/tabBar/tab3",
+    "pages/tabBar/tab5"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "test",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#eeeeee"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/tabBar/tab1",
+        "text": "tab1"
+      },
+      {
+        "pagePath": "pages/tabBar/tab2",
+        "text": "tab2"
+      },
+      {
+        "pagePath": "pages/tabBar/tab3",
+        "text": "tab3"
+      },
+      {
+        "pagePath": "pages/tabBar/tab4",
+        "text": "tab4"
+      },
+      {
+        "pagePath": "pages/tabBar/tab5",
+        "text": "tab5"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

@@ -1,0 +1,10 @@
+/* pages/tabBar/tab4.wxss */
+.list{
+  display: flex;
+  flex-direction: column;
+}
+.list-item{
+  margin: 3px 6px 3px;
+  background-color: lightskyblue;
+  box-shadow: 1px 1px 5px gray;
+}
